@@ -18,13 +18,15 @@
 	 <!-- AoS CDN -->
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
+	<link rel="icon" href="https://img.icons8.com/color/48/000000/chicken.png">
+
 	<title>ALDRICH FIGUEROA Web Portfolio</title>
 </head>
 <body>
 	<nav class="navbar-horizontal">
 		<ul type="none">
 			<li>
-				<h4>PORTFOLIO</h4>
+				<img src="https://img.icons8.com/color/48/000000/chicken.png"/>
 			</li>
 			<li>
 				<a href="#profile">Profile</a>
@@ -48,12 +50,21 @@
 
 		</ul>
 	</nav>
-	<div class="container-fluid justify-content-center mt-5">
-		<div class="container mt-5" id="profile">
-			<img width="200" class="rounded-circle" src="./assets/images/aldrich.jpg" alt="">
-			<h2 class="mt-5">ALDRICH N. FIGUEROA</h2>
-			<h3 class="mt-2">Full Stack Web Developer</h3>
-			<p class="mt-5">Hi! I am Aldrich N. Figueroa, Filipino, discovering the world of Web Developing.</p>
+	<div class="container-fluid mt-5" id="profile">
+		<div class="container mt-5">
+			<div class="d-flex justify-content-center"> 
+				<img width="200" class="rounded-circle" src="./assets/images/aldrich.jpg" alt="">
+					<ul type="none">
+						<li>
+							<h2 class="mt-5 p-2">ALDRICH N. FIGUEROA </h2>
+						</li>
+						<li>
+							<h3 class="mt-2 p-2">Full Stack Web Developer</h3>
+						</li>
+					</ul>
+			</div>
+
+			<p class="mt-5 text-center">Hi! I am Aldrich N. Figueroa, Filipino, discovering the world of Web Developing.</p>
 
 			<p class="text-justify">
 			I am new to this field that is why I am eager to learn how computer programming works. If you will check, I have a different major in college which is Mechanical Engineering, but I learned that for you to be able to share and apply these knowledge in the modern world, new technologies must be integrated so that it can create a better outcome. For that reason, I chose to seek other fields which is Full Stack Developing because I believe that most engineering fields, it also uses deep logic, science, visualization to create an output. Even though the process will start from scratch, I am eager to learn, explore and enjoy this new kind of stuff.
@@ -61,8 +72,9 @@
 		</div>
 	</div> 
 
-	<div class="container-fluid mt-5 text-center" id="skills">
-		<h3>Skill Set</h3>
+	<div class="container-fluid mt-5" id="skills">
+		<h3 class="text-center">Skill Set</h3>
+		<div class="text-center">
 			<ul>
 				<li id="html">
 					<img class="p-4" width="150" src="./assets/images/logo-html5.png" alt="image unavailable">
@@ -85,24 +97,31 @@
 					<p>AutoCAD</p>
 				</li>
 			</ul>
+		</div>
 	</div>
 
-	<div class="container-fluid mt-5 text-center" id="education">
-		<h3>Educational Background</h3>
-
-		<ul>
-			<li>
-				<img width="100" class="rounded-circle" src="https://media-exp1.licdn.com/dms/image/C560BAQEehU4IZTFoxQ/company-logo_200_200/0/1581568392331?e=1635984000&v=beta&t=FE8w72Z5mcUJ4QlHTQZa49-9wkQrW3oaqfgSrkwjhzw" alt="image unavailable">
-				<p>Bulacan State University</p> 
-			</li>
-			<li> 
+	<div class="container-fluid mt-5" id="education">
+		<h3 class="text-center">Educational Background</h3>
+		<div class="d-flex justify-content-center container mt-5">
+			<img width="200" class="rounded-circle" src="https://media-exp1.licdn.com/dms/image/C560BAQEehU4IZTFoxQ/company-logo_200_200/0/1581568392331?e=1635984000&v=beta&t=FE8w72Z5mcUJ4QlHTQZa49-9wkQrW3oaqfgSrkwjhzw" alt="image unavailable">
+			<div>
+					<ul type="none">
+						<li>BS Mechanical Engineering</li>
+						<li>2017-2020</li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						</ul> 
+			</div>
+		</div>
+			
 				<img width="100" class="rounded-circle" src="https://p.kindpng.com/picc/s/136-1368072_medical-education-icon-png-download-health-and-education.png" alt="image unavailable">
 				<p>Holy Spirit Academy of Malolos</p>
-			</li>
-		</ul>
 	</div>
 
-	<div class="container-fluid mt-5" id="work_experience">
+	<div class="container-fluid mt-5 text-center" id="work_experience">
 		<h3>Work Experience</h3>
 			<img width="200" src="https://www.centromanufacturing.com/wp-content/uploads/2020/06/centro.png" alt="image unavailable">
 
@@ -110,34 +129,34 @@
 			
 	</div>
 
-	<div class="container-fluid mt-5" id="contact">
-		<h3>Contact Me</h3>
-		<form action="">
-			<div class="container" id="full_name">
+	<div class="form-group container-fluid mt-5" id="contact">
+		<h3 class="text-center">Contact Me</h3>
+		<form>
+			<div class="container mt-2 p-2" id="full_name">
 				<label for="full_name">Full Name</label>
-				<input type="text" placeholder="Insert Full Name Here">	
+				<input class="form-control" type="text" placeholder="Insert Full Name Here">	
 			</div>
 
-			<div class="container" id="email_add">
+			<div class="container mt-2 p-2" id="email_add">
 				<label for="email">Email Address</label>
-				<input type="text" placeholder="Insert Email Here">
+				<input class="form-control" type="text" placeholder="Insert Email Here">
 			</div>
 
-			<div class="container" id="message">
+			<div class="container mt-2 p-2" id="message">
 				<label for="message">Message </label>
-				<textarea cols="30" rows="4"></textarea>
+				<textarea class="form-control" cols="30" rows="4"></textarea>
 			</div>
 		</form>
 	</div>
 
-	<div class="container-fluid mt-5">
+	<div class="container-fluid mt-5 text-center">
 		<button>
 			<a href="">Send</a>
 		</button>
 	</div>
 
-	<footer>
-		<ul type="none">
+	<footer class="text-center">
+		<ul class="p-4 mt-4" type="none">
 			<li>Email</li>
 			<li>Social Media</li>
 			<li>Copyright</li>
