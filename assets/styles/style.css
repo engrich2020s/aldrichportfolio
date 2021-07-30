@@ -17,3 +17,11 @@ nav li {
 	display: inline-block;
 }
 
+#education li {
+	padding: 20px;
+	display: block;
+	text-align: center;
+}
+
+
+
