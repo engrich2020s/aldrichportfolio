@@ -8,3 +8,12 @@ nav li {
 	padding: 25px;
 }
 
+#skills li {
+	display: inline-block;
+	padding: 50px;
+}
+
+#html, #css, #bootstrap, #sublime, #autocad {
+	display: inline-block;
+}
+
