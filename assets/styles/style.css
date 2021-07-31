@@ -4,13 +4,18 @@
 	/*font-family: 'Open Sans', sans-serif;*/
  }
 
-nav li {
+.navbar-horizontal li {
 	display:inline-block;
-	padding: 25px;
+	padding: 8px;
 }
 
-#profile img {
-	display: inline-block;
+nav a {
+	padding: 50px;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	color: white;
+	font-size: 25px;
 }
 
 #skills li {
@@ -20,11 +25,19 @@ nav li {
 
 
 
-#education ul {
+#education .d-flex  {
 	padding: 20px;
 	display: inline-block;
 	text-align: center;
 }
 
+#contact form {
+	border: 1px solid black;
+	padding: 50px;
+	margin: 10px;
+}
 
+footer {
+	background-color: blue;
+}
 
