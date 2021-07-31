@@ -15,7 +15,8 @@ nav a {
 	color: black;
 	cursor: pointer;
 	color: white;
-	font-size: 25px;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #skills li {
