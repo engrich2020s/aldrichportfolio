@@ -1,12 +1,13 @@
 *{
 	margin: 0;
 	padding: 0;
-	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+	
  }
 
 .navbar-horizontal li {
 	display:inline-block;
-	padding: 2px;
+	padding: 5px;
 }
 
 nav a {
@@ -18,8 +19,14 @@ nav a {
 	font-family: 'Open Sans', sans-serif;
 }
 
+
 #profile div {
 	padding: 25px;
+}
+
+#profile img {
+	padding: 5px;
+	border: 3px solid #0275D8;
 }
 
 #skills li {
@@ -41,15 +48,22 @@ nav a {
 	margin: 10px;
 }
 
-button	{
+button a	{
 	padding: 5px 20px;
+	color: white;
+	text-decoration: none;
 }
 
 footer {
 	background-color: #152238;
 }
+
 footer div {
 	color: white;
 	display: inline;
+}
+
+footer #copyright > div {
+	color: gray;
 }
 
